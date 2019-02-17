@@ -1,0 +1,17 @@
+{
+  "name": "grpc-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrea diblasi",
+  "license": "ISC",
+  "description": "grpc sample",
+  "dependencies": {
+    "grpc": "^1.18.0",
+    "nodemon": "^1.18.10",
+    "uuid": "^3.3.2"
+  }
+}
